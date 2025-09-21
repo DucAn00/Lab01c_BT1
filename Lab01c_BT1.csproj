@@ -174,10 +174,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\th03\About.cshtml" />
-    <Content Include="Views\th03\Contact.cshtml" />
     <Content Include="Views\th03\Index.cshtml" />
-    <Content Include="Views\th03\Lab01c_BT1.cshtml" />
     <Content Include="Views\th03\repass.cshtml" />
     <Content Include="Views\th03\regist.cshtml" />
     <Content Include="Views\th03\Login.cshtml" />

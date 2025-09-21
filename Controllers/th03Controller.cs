@@ -36,7 +36,7 @@ namespace Lab01c_BT1.Controllers
             ViewBag.Message = "Your repass page.";
             return View();
         }
-        public ActionResult regsit()
+        public ActionResult regist()
         {
                        ViewBag.Message = "Your regsit page.";
             return View();
@@ -44,6 +44,11 @@ namespace Lab01c_BT1.Controllers
         public ActionResult Login()
         {
             ViewBag.Message = "Your login page.";
+            return View();
+        }
+        public ActionResult home()
+        {
+            ViewBag.Message = "Your home page.";
             return View();
         }
     }

@@ -10,9 +10,53 @@
     <title></title>
 </head>
 <body>
-    <div>
-        
-    
-    </div>
+    <h2>Đăng kí</h2>
+    <form action="https://www.google.com" method=" post"
+    @*Họ Tên*@
+    <label for=" username">Họ và Tên:</label>
+    <input type=" text" id=" username" name=" username" /><br><
+    @*mssv*@
+    <label for=" masv">Mã Số Sinh Viên:</label>
+    <input type=" text" id=" masv" name=" masv" /><br>
+    @*ngày sinh*@
+    <label for=" date">Ngày Sinh:</label>
+    <input type=" date" id=" date" name=" ngaysinh" /><br>
+    @*Giới tính*@
+    <p>Chuyên ngành:<br>
+    <label for=" chuyen nganh">CNPM</label>
+    <input type="radio" id="chuyennganh" name="chuyennganh" >
+    <label for=" chuyen nganh">HTTT</label>
+    <input type="radio" id="chuyen nganh" name="chuyen nganh" />
+    <label for=" chuyen nganh">AN NINH MẠNG</label>
+    <input type="radio" id=" chuyen nganh" name=" chuyen nganh" /><br>
+    </p>
+    @*sở thích*@
+    <p>Sở thích:</p>
+    <input type="checkbox" id="code" name="code" />
+    <lable for="sothich">Viết Chương Trình</lable><br>
+    <input type="checkbox" id="code" name="code" />
+    <lable for="sothich">Phân Tích CSDL</lable><br>
+    <input type="checkbox" id="code" name="code" />
+    <lable for="sothich">Xây Dựng Sơ Đồ Mạng</lable><br>
+    @*màu sắc yêu thích*@
+    <p>Màu sắc yêu thích:
+    <input type="color" id="color" name=" color" value="#000000"
+    </p>
+    <p>
+    Hình Đại Diện
+    <button type="sumbit">Browse...</button>
+    <h5>No file selected</h5>
+    </p>
+    <label for=" username">Tên Đăng Nhập Web Trường:</label>
+    <input type=" text" id=" login" name="login" /><br>
+    <label for=" username">Mật Khẩu Đăng Nhập Web Trường</label>
+    <input type=" text" id="pass" name="pass" />
+    <br><br><br>
+    <button type="umbit">Gửi dữ liệu về máy chủ</button>
+    </form>
+    <a href="~/th03/home">Back</a>
+
+
+
 </body>
 </html>
